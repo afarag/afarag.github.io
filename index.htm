@@ -1,1237 +1,417 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 12 (filtered)">
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
-@font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
-@font-face
-	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:10.0pt;
-	margin-left:0in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
-	{mso-style-link:"Footnote Text Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	font-size:10.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
-	{mso-style-link:"Comment Text Char";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:10.0pt;
-	margin-left:0in;
-	font-size:10.0pt;
-	font-family:"Calibri","sans-serif";}
-span.MsoFootnoteReference
-	{vertical-align:super;}
-a:link, span.MsoHyperlink
-	{color:blue;
-	text-decoration:underline;}
-a:visited, span.MsoHyperlinkFollowed
-	{color:purple;
-	text-decoration:underline;}
-p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
-	{mso-style-link:"Comment Subject Char";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:10.0pt;
-	margin-left:0in;
-	font-size:10.0pt;
-	font-family:"Calibri","sans-serif";
-	font-weight:bold;}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-link:"Balloon Text Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	font-size:8.0pt;
-	font-family:"Tahoma","sans-serif";}
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:10.0pt;
-	margin-left:.5in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:10.0pt;
-	margin-left:.5in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-span.CommentTextChar
-	{mso-style-name:"Comment Text Char";
-	mso-style-link:"Comment Text";}
-span.CommentSubjectChar
-	{mso-style-name:"Comment Subject Char";
-	mso-style-link:"Comment Subject";
-	font-weight:bold;}
-span.BalloonTextChar
-	{mso-style-name:"Balloon Text Char";
-	mso-style-link:"Balloon Text";
-	font-family:"Tahoma","sans-serif";}
-span.FootnoteTextChar
-	{mso-style-name:"Footnote Text Char";
-	mso-style-link:"Footnote Text";}
-.MsoPapDefault
-	{margin-bottom:10.0pt;
-	line-height:115%;}
- /* Page Definitions */
- @page WordSection1
-	{size:8.5in 11.0in;
-	margin:.5in .5in .5in .5in;}
-div.WordSection1
-	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
--->
-</style>
-
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Author" content="taratran">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1561.1">
+  <style type="text/css">
+    p.p1 {margin: 4.0px 0.0px 0.0px 167.3px; font: 10.0px Arial}
+    p.p2 {margin: 0.1px 0.0px 0.0px 0.0px; font: 10.0px Arial; min-height: 11.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 5.0px; text-align: justify; font: 10.0px Arial}
+    p.p4 {margin: 9.7px 0.0px 0.0px 5.0px; font: 10.0px Arial}
+    p.p5 {margin: 9.7px 0.0px 0.0px 5.0px; text-indent: 2.8px; font: 10.0px Arial}
+    p.p6 {margin: 0.1px 0.0px 0.0px 0.0px; font: 4.5px Arial; min-height: 5.0px}
+    p.p8 {margin: 0.2px 0.0px 0.0px 0.0px; font: 10.0px Arial; min-height: 11.0px}
+    p.p9 {margin: 0.0px 0.0px 0.0px 23.0px; font: 10.0px Arial}
+    p.p10 {margin: 0.1px 0.0px 0.0px 0.0px; font: 8.5px Arial; min-height: 10.0px}
+    p.p12 {margin: 0.1px 0.0px 0.0px 23.0px; font: 10.0px Arial}
+    p.p13 {margin: 0.3px 0.0px 0.0px 0.0px; font: 10.5px Arial; min-height: 12.0px}
+    p.p17 {margin: 0.1px 0.0px 0.0px 0.0px; font: 11.5px Arial; min-height: 12.0px}
+    p.p18 {margin: 0.3px 0.0px 0.0px 0.0px; font: 8.5px Arial; min-height: 10.0px}
+    p.p19 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Arial; min-height: 11.0px}
+    p.p21 {margin: 4.0px 0.0px 0.0px 5.0px; font: 10.0px Arial}
+    p.p22 {margin: 0.2px 0.0px 0.0px 0.0px; font: 8.5px Arial; min-height: 10.0px}
+    p.p23 {margin: 0.0px 0.0px 0.0px 5.0px; font: 10.0px Arial}
+    p.p24 {margin: 9.8px 0.0px 0.0px 5.0px; font: 10.0px Arial}
+    p.p25 {margin: 0.1px 0.0px 0.0px 5.0px; font: 10.0px Arial}
+    p.p26 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Arial; min-height: 12.0px}
+    p.p27 {margin: 0.1px 0.0px 0.0px 0.0px; font: 13.0px Arial; min-height: 15.0px}
+    p.p28 {margin: 0.1px 0.0px 0.0px 207.6px; text-align: center; font: 10.0px Arial}
+    p.p29 {margin: 0.2px 0.0px 0.0px 5.0px; font: 10.0px Arial}
+    p.p30 {margin: 7.8px 0.0px 0.0px 5.0px; font: 10.0px Arial}
+    p.p33 {margin: 0.5px 0.0px 0.0px 0.0px; font: 12.5px Arial; min-height: 14.0px}
+    p.p34 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Arial; min-height: 15.0px}
+    p.p35 {margin: 9.6px 0.0px 0.0px 5.0px; font: 10.0px Arial}
+    p.p36 {margin: 0.5px 0.0px 0.0px 0.0px; font: 11.5px Arial; min-height: 12.0px}
+    p.p38 {margin: 0.6px 0.0px 0.0px 0.0px; font: 11.0px Arial; min-height: 12.0px}
+    p.p39 {margin: 1.8px 0.0px 0.0px 5.0px; font: 10.0px Arial}
+    p.p45 {margin: 0.2px 0.0px 0.0px 0.0px; font: 14.0px Arial; min-height: 16.0px}
+    p.p46 {margin: 4.1px 0.0px 0.0px 95.0px; font: 10.0px Arial}
+    p.p47 {margin: 0.0px 0.0px 0.0px 95.0px; font: 10.0px Arial}
+    p.p48 {margin: 0.3px 0.0px 0.0px 95.0px; font: 10.0px Arial}
+    li.li7 {margin: 4.7px 0.0px 0.0px 0.0px; font: 10.0px Arial}
+    li.li11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Arial}
+    li.li14 {margin: 0.9px 0.0px 0.0px 0.0px; font: 10.0px Arial}
+    li.li15 {margin: 2.3px 0.0px 0.0px 0.0px; font: 10.0px Arial}
+    li.li16 {margin: 2.4px 0.0px 0.0px 0.0px; font: 10.0px Arial}
+    li.li20 {margin: 9.8px 0.0px 0.0px 0.0px; font: 10.0px Arial}
+    li.li31 {margin: 1.8px 0.0px 0.0px 0.0px; font: 10.0px Arial}
+    li.li32 {margin: 1.7px 0.0px 0.0px 0.0px; font: 10.0px Arial}
+    li.li37 {margin: 9.7px 0.0px 0.0px 0.0px; font: 10.0px Arial}
+    li.li40 {margin: 4.0px 0.0px 0.0px 0.0px; font: 10.0px Arial}
+    li.li41 {margin: 0.1px 0.0px 0.0px 0.0px; font: 10.0px Arial}
+    li.li42 {margin: 1.6px 0.0px 0.0px 0.0px; font: 10.0px Arial}
+    li.li43 {margin: 7.8px 0.0px 0.0px 0.0px; font: 10.0px Arial}
+    li.li44 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: justify; font: 10.0px Arial}
+    span.s1 {text-decoration: underline}
+    span.s2 {letter-spacing: -0.5px}
+    span.s3 {letter-spacing: -0.9px}
+    span.s4 {letter-spacing: -1.1px}
+    span.s5 {letter-spacing: -1.5px}
+    span.s6 {letter-spacing: -1.6px}
+    span.s7 {letter-spacing: -0.3px}
+    span.s8 {letter-spacing: -0.8px}
+    span.s9 {letter-spacing: 0.1px}
+    span.s10 {letter-spacing: -1.2px}
+    span.s11 {letter-spacing: -0.7px}
+    span.s12 {letter-spacing: -0.2px}
+    span.s13 {letter-spacing: -0.1px}
+    span.s14 {letter-spacing: -0.4px}
+    span.s15 {letter-spacing: 0.2px}
+    span.s16 {letter-spacing: -1.8px}
+    span.s17 {letter-spacing: -0.6px}
+    span.s18 {letter-spacing: -1.4px}
+    span.s19 {letter-spacing: -1.0px}
+    span.s20 {color: #275c8f}
+    span.s21 {letter-spacing: -1.9px}
+    span.s22 {letter-spacing: -1.7px}
+    span.s23 {letter-spacing: -1.3px}
+    ol.ol1 {list-style-type: decimal}
+    ol.ol2 {list-style-type: lower-alpha}
+    ol.ol3 {list-style-type: lower-roman}
+    ul.ul1 {list-style-type: disc}
+  </style>
 </head>
-
-<body lang=EN-CA link=blue vlink=purple>
-
-<div class=WordSection1>
-
-<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'> BELL
-CONNECTED CAR TERMS OF SERVICE</span></b></p>
-
-<p class=MsoNormal><b><u><span lang=EN-US style='font-size:10.0pt;line-height:
-115%;font-family:"Arial","sans-serif"'>IMPORTANT</span></u></b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>:
-Your use of the Bell Connected Car application (the “<b>App</b>”) with
-associated services provided and powered by Mojio Inc., is governed by the
-Mojio Terms of Use and Privacy Policy found at moj.io.  You should not
-download, install or use the App if you do not understand or agree to the Mojio
-Terms of Use and/or Privacy Policy.</span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>These Bell Connected Car Terms of Service
-apply solely to your use of the ZTE Z6200C device which connects to your
-vehicle’s on-board diagnostics (OBD-II) port (the “<b>ZTE OBD-II Device</b>”)
-and the wireless telecommunications services provided to you by Bell Mobility
-Inc. (“<b>Bell</b>” or “<b>Bell Mobility</b>”) in connection with Bell
-Connected Car. In addition, you remain subject to Bell Mobility’s Terms of
-Service and the Responsible Use of Bell Services Policy governing your use of
-the Bell services, all of the terms of which are incorporated by reference
-herein (visit bell.ca/legal).  Bell may modify these Bell Connected Car Terms
-from time to time, including by modifying or terminating Bell Connected Car, or
-any components thereof (including which rate plans and/or data features are
-eligible for use with Bell Connected Car).  </span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'> <b><u>Always employ safe driving practices. 
-You are responsible for obeying all traffic laws and laws directed at
-distracted driving (including use of mobile devices while driving).  Bell
-Mobility reminds you that it is unsafe and illegal to drive while using your
-mobile device unless you are using handsfree capabilities</u>.</b></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>1.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>How
-does the Bell Connected Car service work? </span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>When loaded on a
-compatible mobile device, the App provided by Mojio <a name="_GoBack"></a>works
-with the ZTE OBD-II Device and Bell’s wireless services to provide certain tools
-and services such as an in-car Wi-Fi hotspot, select telemetry information and
-basic vehicle diagnostics.</span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>2.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>What
-are some of my responsibilities relating to the ZTE OBD-II Device?</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Among other
-responsibilities, you agree and acknowledge:</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>you will install the ZTE OBD-II Device in a
-compatible vehicle owned and controlled by you; to determine if your vehicle is
-compatible, please visit bell.ca/checkmycar;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>you will not install or remove the ZTE OBD-II
-Device while your vehicle is in use;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>you will ensure the ZTE OBD-II Device is
-installed securely and properly in your vehicle’s OBD-II port; and</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>the ZTE OBD-II Device goes into sleep mode
-when your vehicle is not in use, to conserve battery drain. It is recommended
-you unplug the ZTE OBD-II Device if you plan to park your vehicle for several
-weeks at a time to help avoid battery drain. </span></p>
-
-<p class=MsoListParagraphCxSpMiddle><span lang=EN-US style='font-size:10.0pt;
-line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>3.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Does
-the ZTE OBD-II Device use my wireless data services?</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Yes, on an ongoing
-basis, the ZTE OBD-II Device will send your vehicle information to Mojio for
-the telematics portion of the App. This activity uses your wireless data
-services. This data usage will continue, even if you have turned off your Bell
-Connected Car Wi-Fi hotspot or if your vehicle’s engine is turned off. Also,
-when you use the Bell Connected Car Wi-Fi hotspot, plan data usage will be
-incurred. <b> The only way to stop the ZTE OBD-II Device from using any of your
-wireless data services is to unplug it from the OBD-II port, which should only
-be done while your vehicle is not in use. </b></span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>4.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Does
-Bell Connected Car work outside of Canada? </span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Yes, Bell Connected
-Car will work in the United States.  Roaming and data charges apply.</span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>5.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>  <b>How
-many digital devices can connect to the Bell Connected Car Wi-Fi Hotspot? </b></span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>You can connect up to
-<b>5</b> Wi-Fi capable digital devices (such as smartphones, tablets and
-laptops) to the Bell Connected Car Wi-Fi hotspot.  The Bell Connected Car Wi-Fi
-hotspot is password-protected, so it is only available to those who have the
-password. </span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>6.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>How
-does Bell limit its liability in respect of Bell Connected Car?</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>The Bell Mobility
-Terms of Service, including the warranties and limitation of liability therein,
-apply to your use of the ZTE OBD-II Device and the wireless telecommunications
-services provided to you in connection with Bell Connected Car.  As a reminder,
-the Mojio Terms of Service at moj.io are applicable to, and govern your use of,
-the App.</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>In addition, Bell
-does not warrant that your use of Bell Connected Car will result in any savings
-or efficiencies in the operation of your vehicle, or that the App’s detection
-of driving activity, mechanical errors or technical errors in your vehicle will
-be accurate.  You acknowledge and agree that Bell Connected Car is not intended
-to replace the advice of licensed mechanics or proper vehicle maintenance,
-which you remain responsible for obtaining. </span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>You also acknowledge
-and agree that you are responsible for your use of the ZTE OBD-II Device, the
-App and/or the wireless services and any accident, damage, liability, bodily injury
-or death that might occur to you, your property, third parties or their
-property resulting from said use, even if the ZTE OBD-II Device, App or
-wireless services contribute to the cause of the accident, damages, liability,
-bodily injury or death.  </span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>If you would like to
-review this Bell Connected Car Terms of Service again later, please visit
-bell.ca/legal.</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>November 17, 2017</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoNormal align=center style='margin-left:.25in;text-align:center'><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>MOJIO’S
-TERMS of USE</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Last
-Updated: November 22, 2016</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>The following terms
-of use (the “<b>Terms of Use</b>”) govern your access to and use of: (a) our
-website located at www.moj.io (the “<b>Mojio Website</b>”); (b) our platform
-(including APIs required to access the platform) that provides connected-car
-services (the “<b>Mojio Platform</b>”); (c) our software development kit for
-development applications that interoperate with the Mojio Platform (the “<b>Mojio
-SDK</b>”); (d) any mobile device software provided by us to you through the
-Apple App Store or Google Play, including our mobile application titled <b>Motion</b>
-(the “<b>Mojio Mobile Applications</b>”); (e) any text, pictures, media, data,
-text, information and other materials or content (collectively, the “Content”)
-contained on or provided through the foregoing (a) to (d), and (f) all other
-Content, products or services provided by us to you, as more particularly
-described on the Mojio Website (collectively, the “Mojio Solution”). These
-Terms of Use form an agreement between Mojio Inc. (“<b>Mojio</b>”, “<b>us</b>”,
-“<b>we</b>”, “<b>our</b>”) and you. The term &quot;you&quot; refers to the
-person or entity browsing, installing, downloading, accessing or otherwise
-using the Mojio Solution (“<b>use</b>” or “<b>using</b>” in these Terms of Use
-will mean any of the foregoing).</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>BY
-USING THE MOJIO SOLUTION, YOU: (A) REPRESENT AND WARRANT THAT: (I) YOU HAVE
-REACHED THE AGE OF MAJORITY IN YOUR JURISDICTION, (II) YOU HAVE THE CAPACITY TO
-ENTER INTO BINDING OBLIGATIONS, AND (III) ALL INFORMATION SUPPLIED BY YOU TO US
-THROUGH THE MOJIO SOLUTION IS TRUE, ACCURATE, CURRENT, AND COMPLETE; AND (B)
-AGREE TO BE BOUND BY AND COMPLY WITH THESE TERMS OF USE, AS UPDATED FROM TIME
-TO TIME IN ACCORDANCE WITH SECTION 3. IF YOU ARE USING THE MOJIO SOLUTION ON
-BEHALF OF ANOTHER PERSON OR A CORPORATE ENTITY, YOU REPRESENT AND WARRANT THAT
-YOU HAVE THE AUTHORITY TO BIND SUCH PERSON OR ENTITY TO THESE TERMS OF USE.</span></b></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>1.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Mojio</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>The Mojio Website is
-a site operated by Mojio. We are a Canadian registered company and have our
-registered office at 9th Floor, 1080 Howe Street, Vancouver, BC Canada V6Z 2T1.
-To contact us, please email info@moj.io or telephone our customer service line
-at 1 855-556-6546.</span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>2.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Mojio
-Solution Requirements</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>In order to use the
-Mojio Solution (except for the Mojio Website), you are required to have:</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>a)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>a
-hardware device approved for use with the Mojio Solution by Mojio (the “<b>Mojio
-Hardware Device</b>”);</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>b)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>an
-active cellular data plan for the Mojio Hardware Device; and</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>c)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>if
-required by your cellular carrier, a subscription for connected-car services.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in'><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>3.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Changes
-to these Terms of Use and Mojio Solution</span></b></p>
-
-<p class=MsoListParagraphCxSpMiddle><span lang=EN-US style='font-size:10.0pt;
-line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>a)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Except
-where prohibited by applicable law, we reserve the right to change these Terms
-of Use from time to time. Your continued access to or use of the Mojio Solution
-after any changes to these Terms of Use indicates your acceptance of such
-changes. Please review these Terms of Use regularly to ensure you understand
-the terms that apply at the time of use.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>b)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>We
-reserve the right to change the Mojio Solution from time to time. We will try
-to give you reasonable notice of any major changes.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle><span lang=EN-US style='font-size:10.0pt;
-line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>4.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>License
-to Mojio SDK</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Subject to these
-Terms of Use, we grant you a worldwide, non-exclusive, non-transferrable, non-
-sublicensable and revocable license during the Term to download, install and
-use the Mojio SDK to:</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>a)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>enable
-interoperability between your custom iOS or Android-based mobile applications
-(the “Custom Applications”) and the Mojio Platform in accordance with these Terms
-of Use and any other policies or guidelines, including software development
-policies and guidelines, made available by us from time to time; and</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>b)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>distribute
-and otherwise make available the redistributable components of the Mojio SDK in
-object code form as embedded within your Custom Applications, provided that
-your Custom Application is distributed or made available under an end-user
-license agreement that is no less protective of us and the Mojio Solution as
-these Terms of Use.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in'><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in'><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>5.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>License
-to the Mojio Mobile Applications</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Subject to these
-Terms of Use, we grant you worldwide, non-exclusive, non-transferable, non-
-sublicensable and revocable license during the Term to use the Mojio Mobile
-Applications on your iOS based or Android-based mobile device, as applicable,
-in accordance with these Terms of Use.</span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>6.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Access
-to the Mojio Website</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>We do not guarantee
-that the Mojio Website, or any content on it, will always be available or be
-uninterrupted. We may suspend or withdraw or restrict the availability of all
-or any part of the Mojio Website for business and operational reasons. We will
-try to give you reasonable notice of any suspension or withdrawal.</span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>7.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Access
-to the Mojio Platform</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>We retain the right,
-at our sole discretion, to deny you access to the Mojio Platform for business
-and operational reasons or for violation of these Terms of Use. You will cease
-and desist from any such access or use immediately upon request by us.</span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>8.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>License
-Grant to Your Custom Applications</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>By uploading,
-transmitting, or otherwise providing us with any of your Custom Applications,
-you grant us an irrevocable, worldwide, non-exclusive, royalty-free, fully
-paid-up, perpetual, transferrable and sublicensable license to use, copy,
-transmit, distribute, display and otherwise make available your Custom
-Applications, including on our online catalogue of Mojio-enabled applications
-available on the Mojio Website.</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>9.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Trademark
-Licenses</span></b></p>
-
-<p class=MsoListParagraphCxSpMiddle><span lang=EN-US style='font-size:10.0pt;
-line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>a)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>You
-grant us an irrevocable, worldwide, non-exclusive, royalty-free, fully paid-
-up, perpetual, transferrable and sublicensable license to use your trademarks
-and logos solely in connection with the marketing, advertising, promotion,
-transmission, distribution, and display of your Custom Applications, including
-on our catalogue of Mojio-enabled applications available on the Mojio Website.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>b)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>We
-grant you a worldwide, non-exclusive, royalty-free, fully paid-up, non-
-transferable, non-sublicensable, and revocable license during the Term to use
-the trademarks and logos of Mojio in accordance with our trademark guidelines and
-policies located at www.moj.io solely in connection with the marketing,
-advertising, and promotion of your Custom Applications.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>c)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>We
-may terminate the license granted to use pursuant to Section 9(b) at our sole
-discretion, including if we believe you may have tarnished, blurred, or
-otherwise diluted the quality or goodwill associated with our trademarks or
-logos.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in'><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>10.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Data
-You Upload To Us</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Subject to our
-Privacy Policy (see Section 15 below), you grant to us an irrevocable,
-worldwide, non-exclusive, royalty-free, fully paid-up, transferable and
-sublicensable license during the Term to access, collect, store and use any
-data, information, records and files that: (a) you load, transmit to or enter
-into the Mojio Solution; or (b) we collect from your Mojio Hardware Device ((a)
-and (b), collectively, the “<b>User Data</b>”), to: (i) provide the Mojio
-Solution to you; (ii) fix, maintain, enhance and modify the Mojio
-Solution;(iii) communicate with you; (iv) comply with legal and regulatory
-requirements, (v) promote our products and services; (vi) provide you with
-offers that might interest you ; and (vii) produce data, information, or other
-materials that will not be able to identify a particular individual or company
-(such data, information and materials, the “<b>Aggregated Statistical
-Information</b>”). We are free to create, use and disclose Aggregated
-Statistical Information for any purpose and without obligations of any kind.</span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>11.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Software
-Updates</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>he Mojio Mobile
-Applications may automatically download and install updates from time to time
-from us. These updates are designed to improve, enhance and further develop the
-Mojio Solution and may take the form of bug fixes, enhanced functions, new
-software modules and completely new versions. You agree to receive such updates
-(and permit us to deliver these to you, including through the Apple App Store
-or Google Play) as part of your use of the Mojio Solution.</span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>12.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Ownership</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>All rights, title and
-interest, including intellectual property rights, in the Mojio Solution,
-Aggregated Statistical Information and all other materials provided by us
-hereunder, and any update, adaptation, translation, customization or derivative
-work thereof, will remain with us (or our third party suppliers, if
-applicable). The Mojio Solution and all materials provided by us hereunder are
-licensed and not “sold” to you. All rights not expressly granted to you in
-these Terms of Use are reserved.</span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>13.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>User
-IDs for Mojio Solution</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>To access certain
-features of the Mojio Solution (e.g., the Mojio Platform), you may be required
-to successfully sign up for a user account using the available interfaces at
-the Mojio Solution and be issued with a username and password login credentials
-(the “<b>User ID</b>”). If you are issued with a User ID, you will treat such
-information as confidential, keep your User ID secure and will not share your
-User ID with anyone else. We reserve the right to disable any User ID issued to
-you at any time in our sole discretion. If we disable access to a User ID
-issued to you, you may be prevented from accessing the Mojio Solution.</span></p>
-
-<p class=MsoListParagraph style='text-indent:-.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>14.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></b><b><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>No
-Unlawful or Prohibited Use</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>You will not, without
-our prior written permission, use the Mojio Solution for any purpose other than
-to: (a) discover and learn about connected-car products and services offered by
-us; (b) obtain information about your vehicle, including driver behaviour; (c)
-use third party software applications that have been developed using the Mojio
-SDK; and (d) develop custom applications using the Mojio SDK. Without limiting
-the generality of the foregoing, you will not (and will not attempt to):</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>a)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>send,
-upload, collect, transmit, store, use, post, publish, or otherwise communicate
-on the Mojio Solution (including any developer community forums) any data,
-information, pictures, videos, music or other materials or content that:</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.25in;text-indent:-1.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'><span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>i.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>contains any computer viruses, worms,
-malicious code, or any software intended to damage or alter a computer system
-or data;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.25in;text-indent:-1.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'><span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>ii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>you do not have the lawful right to send,
-upload, collect, transmit, store, use, publish, or otherwise communicate;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.25in;text-indent:-1.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'><span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>iii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>is false, intentionally misleading, or
-impersonates any other person;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.25in;text-indent:-1.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'><span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>iv.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>is bullying, harassing, abusive, threatening,
-vulgar, obscene, or offensive, or that contains pornography, nudity, or graphic
-or gratuitous violence, or that promotes violence, racism, discrimination,
-bigotry, hatred, or physical harm of any kind against any group or individual;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.25in;text-indent:-1.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'><span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>v.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>is harmful to minors in any way or targeted
-at minors;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.25in;text-indent:-1.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'><span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>vi.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>violates any applicable laws, or infringes,
-violates or otherwise misappropriates the intellectual property or other rights
-of any third party (including any moral right, privacy right or right of
-publicity); or</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.25in;text-indent:-1.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'><span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>vii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>encourages any conduct that may violate, any
-applicable laws or would give rise to civil or criminal liability;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>b)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>disable,
-overly burden, impair, or otherwise interfere with servers or networks
-connected to the Mojio Solution (e.g., a denial of service attack);</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>c)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>attempt
-to gain unauthorized access to the Mojio Solution;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>d)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>use
-any data mining, robots, or similar data gathering or extraction methods, or
-copy, modify, reverse engineer, reverse assemble, disassemble, or decompile the
-Mojio Solution or any part thereof or otherwise attempt to discover any source
-code;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>e)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>use
-the Mojio Solution for the purpose of building a similar or competitive product
-or service;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>f)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>link
-to the Mojio Website in any way that is illegal or damages our reputation or
-takes advantage of it, or in any way as to suggest any form of association,
-approval or endorsement on our part where none exists, or in any website that
-is not owned by you; or</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>g)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>use
-the Mojio Solution other than as permitted by these Terms of Use.</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>We have the right to
-remove any data, information, pictures, videos, music or other materials or
-content that you send, upload, collect, transmit, store, use, post, publish, or
-otherwise communicate on the Mojio Solution if, in our opinion, it does not
-comply with the content standards set out in (i) above.</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>15. Privacy</span></b></p>
-
-<p class=MsoNormal style='margin-left:.5in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>a) Please click here
-to review our current Privacy Policy, which contains important information
-about our practices in collecting, storing, using and disclosing information
-about identifiable individuals (“<b>Personal Information</b>”), and which is
-hereby incorporated into and forms a part of these Terms of Use: <b><span
-style='color:#1F497D'>www.moj.io/privacy?language=en</span></b></span></p>
-
-<p class=MsoNormal style='margin-left:.5in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>b) You represent and
-warrant to us that the User Data will only contain Personal Information in
-respect of which you have provided all notices and disclosures, obtained all
-applicable third party consents and permissions and otherwise have all
-authority, in each case as required by applicable laws, to enable us to: (i)
-make available the Mojio Solution; and (ii) create, use and disclose Aggregated
-Statistical Information for any purpose and without obligations of any kind.</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><b><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>16.
-Viruses</span></b></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>The downloading and
-viewing of Content is done at your own risk. We do not guarantee or warrant
-that the Mojio Solution is compatible with your computer system or that the
-Mojio Solution, or any links from the Mojio Solution, will be free of bugs,
-viruses, worms, trojan horses or disabling devices or other code that manifests
-contaminating or destructive properties. You are responsible for implementing
-safeguards to protect the security and integrity of your computer system, and
-you are responsible for the entire cost of any service, repairs or connections
-of and to your computer system that may be necessary as a result of your use of
-the Mojio Solution.</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>17. <b>Communications
-Not Confidential</b></span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>We do not guarantee
-the confidentiality of any communications made by you through the Mojio
-Solution. We do not guarantee the security of data transmitted over the
-Internet or public networks in connection with your use of the Mojio Solution.</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>18. <b>Disclaimers</b></span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>YOU ACKNOWLEDGE,
-UNDERSTAND, AND AGREE THAT:</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>a)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><u><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>GENERAL
-DISCLAIMER</span></u><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>. THE MOJIO SOLUTION IS PROVIDED “AS IS” AND
-“AS AVAILABLE”, WITH ALL FAULTS AND WITHOUT WARRANTIES OR CONDITIONS OF ANY
-KIND. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, WE DISCLAIM ALL
-WARRANTIES, REPRESENTATIONS AND CONDITIONS OF ANY KIND WITH RESPECT TO THE
-MOJIO SOLUTION WHETHER EXPRESS, IMPLIED, STATUTORY OR COLLATERAL, INCLUDING,
-WITHOUT LIMITATION, THE WARRANTIES AND CONDITIONS OF MERCHANTABILITY,
-MERCHANTABLE QUALITY, COMPATIBILITY, TITLE, SECURITY, RELIABILITY,
-COMPLETENESS, QUIET ENJOYMENT, ACCURACY, RELIABILITY, CURRENCY, TIMELINESS,
-QUALITY, INTEGRATION, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT, OR
-ANY WARRANTIES OR CONDITIONS ARISING OUT OF COURSE OF DEALING OR USAGE OF
-TRADE, OR THAT THE MOJIO SOLUTION IS OR WILL BE ERROR-FREE OR WILL OPERATE
-WITHOUT INTERRUPTION. NOTWITHSTANDING THE ABOVE, IF YOU ARE USING THE MOJIO
-SOLUTION AS A CONSUMER, THIS DOES NOT AFFECT ANY STATUTORY WARRANTY TO WHICH
-YOU MAY BE ENTITLED UNDER APPLICABLE LAW, INCLUDING AN IMPLIED WARRANTY OF
-MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>b)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><u><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>NO
-RELIANCE ON INFORMATION</span></u><span lang=EN-US style='font-size:10.0pt;
-line-height:115%;font-family:"Arial","sans-serif"'>. THE CONTENT ON THE MOJIO
-SOLUTION IS PROVIDED FOR GENERAL INFORMATION ONLY. IT IS NOT INTENDED TO AMOUNT
-TO ADVICE ON WHICH YOU SHOULD RELY. YOU MUST OBTAIN PROFESSIONAL OR SPECIALIST
-ADVICE BEFORE TAKING, OR REFRAINING FROM, ANY ACTION ON THE BASIS OF THE
-CONTENT ON THE MOJIO SOLUTION.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>c)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><u><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>VEHICLE
-DISCLAIMER</span></u><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>. THE MOJIO SOLUTION IS NOT DESIGNED OR
-INTENDED TO BE A SUBSTITUTE FOR ADVICE OR INFORMATION FROM YOUR VEHICLE
-MANUFACTURER OR A PROFESSIONAL AND LICENSED MECHANIC.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>d)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><u><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>HIGH-RISK
-DISCLAIMER</span></u><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>. THE MOJIO SOLUTION IS NOT DESIGNED OR
-INTENDED FOR USE IN EMERGENCY OR OTHER HIGH RISK SITUATIONS.</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>e)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><u><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>THIRD
-PARTY PRODUCTS OR SERVICES DISCLAIMER</span></u><span lang=EN-US
-style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>.
-WHILE THE MOJIO SOLUTION MAY PROVIDE INFORMATION (INCLUDING LINKS TO WEBSITES
-AND OTHER CONTACT INFORMATION) RELATED TO THE PRODUCTS OR SERVICES OFFERED BY
-THIRD PARTIES SUCH AS MECHANICS OR SUPPLIERS OF AUTOMTIVE PARTS, WE DO NOT
-ENDORSE OR APPROVE ANY INFORMATION, PRODUCT OR SERVICES PROVIDED BY SUCH THIRD
-PARTIES NOR DO WE GUARANTEE THE QUALITY, MERCHANTABILITY OR FITNESS FOR ANY
-PURPOSES OF SUCH INFORMATION, PRODUCTS AND SERVICES. YOU ACKNOWLEDGE AND AGREE
-THAT THE INFORMATION, PRODUCTS AND SERVICES PROVIDED BY THIRD PARTIES ARE NOT
-UNDER OUR CONTROL AND THAT YOU USE SUCH INFORMATION, SERVICES AND PRODUCTS
-ENTIRELY AT YOUR OWN RISK.</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>19. <b>Limitation of
-Liability</b></span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>TO THE MAXIMUM EXTENT
-PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL WE BE LIABLE, WHETHER BASED ON
-WARRANTY, CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY OR ANY OTHER LEGAL
-THEORY, FOR ANY DAMAGES OF ANY KIND (INCLUDING, WITHOUT LIMITATION, DIRECT,
-INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, EXEMPLARY OR PUNITIVE DAMAGES,
-LOST PROFITS, LOSS OF USE, LOSS OF DATA, PERSONAL INJURY, FINES, FEES,
-PENALTIES OR OTHER LIABILITIES), WHETHER OR NOT WE WERE ADVISED OF THE POSSIBILITY
-OF SUCH DAMAGES, RESULTING FROM OR RELATED TO: USE OF, OR INABILITY TO USE, THE
-MOJIO SOLUTION; USE OF OR RELIANCE ON ANY CONTENT DISPLAYED IN THE MOJIO
-SOLUTION; OR THESE TERMS OF USE.</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>TO THE EXTENT THAT
-THE FOREGOING LIMITATION IS NOT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL
-OUR TOTAL AGGREGATE LIABILITY IN CONNECTION WITH OR UNDER THESE TERMS OF USE,
-OR YOUR USE OF, OR INABILITY TO MAKE USE OF, THE MOJIO SOLUTION EXCEED $100CAD.
-FOR GREATER CERTAINTY, THE EXISTENCE OF ONE OR MORE CLAIMS UNDER THESE TERMS OF
-USE WILL NOT INCREASE THIS MAXIMUM LIABILITY AMOUNT.</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>20. <b>Indemnification</b></span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>You will defend,
-indemnify and hold harmless us and all of our officers, directors, employees
-and agents from and against any claims, causes of action, demands, recoveries,
-losses, damages, fines, penalties or other costs or expenses of any kind or
-nature including reasonable legal and accounting fees, arising out of or in
-connection with:</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>a)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>your
-Custom Applications, including our use and distribution of your Custom Applications
-pursuant to Section 8;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>b)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>your
-trade-marks or logos, including our use of your trade-marks or logos pursuant
-to Section 8;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>c)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>your
-breach of any provision of these Terms of Use or any documents referenced
-herein;</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>d)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>your
-violation of any law or the rights of a third party (including intellectual
-property rights); or</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>e)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>your
-use (or the use by any third party using your User ID) of the Mojio Solution.</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>21. <b>Term and
-Termination; Survival</b></span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>These Terms of Use
-will commence on the day you first use the Mojio Solution and will continue
-into force until terminated by either party (the “<b>Term</b>”). Either party
-may terminate these Terms of Use as follows: (a) we may terminate these Terms
-of Use at any time and with immediate effect by giving notice to you, at our
-discretion, by email (at your current email address on file with us) or through
-the Mojio Solution; (b) you may terminate these Terms of Use at any time and
-with immediate effect by requesting (by email or through any then-available
-interfaces on the Mojio Solution) that your User ID be deleted, ceasing use of
-the Mojio Solution and uninstalling and deleting the Mojio Mobile Application.</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>The following
-Sections, together with any other provision of these Terms of Use which
-expressly or by its nature survives termination or expiration, or which
-contemplates performance or observance subsequent to termination or expiration
-of these Terms of Use, will survive expiration or termination of these Terms of
-Use for any reason: Sections 8 (License to Custom Applications), 9(a)
-(Trademark License to Customer Trademark), 11 (Ownership), 15(b) (Personal
-Information Warranty), 16 (Viruses), 17 (Communications Not Confidential), 18
-(Disclaimers), 19 (Limitation of Liability), 20 (Indemnification), 21(b)
-(Survival), and 22 (General Provisions).</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>22. <b>General
-Provisions</b></span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>a)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><u><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Choice
-of Law</span></u><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>. Except as restricted by applicable law of
-your domicile, residency or physical location, these Terms of Use will be
-governed by the laws of the Province of British Columbia and the federal laws
-of Canada applicable therein and such laws apply to your access to or use of
-the Mojio Solution. You will only use the Mojio Solution in jurisdictions where
-the Mojio Solution may lawfully be used. Except as restricted by applicable law
-of your domicile, residency or physical location, you hereby consent to the
-exclusive jurisdiction and venue of courts in Vancouver, British Columbia,
-Canada in all disputes arising out of or relating to the use of the Mojio
-Solution.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>b)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><u><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Entire
-Agreement</span></u><span lang=EN-US style='font-size:10.0pt;line-height:115%;
-font-family:"Arial","sans-serif"'>. These Terms of Use constitute the entire
-agreement between you and us pertaining to the subject matter hereof and
-supersede all prior or contemporaneous communications and proposals, whether
-electronic, oral or written, between you and us with respect to the Mojio
-Solution. A printed version of these Terms of Use and of any notice given in
-electronic form will be admissible in judicial or administrative proceedings
-based upon or relating to these Terms of Use to the same extent and subject to
-the same conditions as other business documents and records originally
-generated and maintained in printed form.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>c)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><u><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Waiver</span></u><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>.
-Our failure to insist upon or enforce strict performance of any provision of
-these Terms of Use will not be construed as a waiver of any provision or right.
-A waiver of any provision of these Terms of Use must be in writing and a waiver
-in one instance will not preclude enforcement of such provision on other
-occasions.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>d)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><u><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Severable</span></u><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>.
-If any of the provisions or any part of the provisions contained in these Terms
-of Use are determined to be void, illegal, invalid or otherwise unenforceable
-by a court of competent jurisdiction, such provision or part of such provision,
-as applicable, will be severed from these Terms of Use and all other provisions
-and part of the provisions, as applicable, of these Terms of Use will remain in
-full force and effect. If any void, illegal, invalid, or unenforceable
-provision would be valid, enforceable or legal if some part of it were deleted,
-the provision shall apply with whatever modification is necessary to give
-effect to the provision. To the extent that modification in accordance with the
-preceding two sentences is impossible, any invalid, unenforceable or illegal
-provisions shall be deemed not to form part of these Terms of Use and all other
-provisions of these Terms of Use shall remain in force.</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>e)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><u><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Assignment</span></u><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>.
-You will not assign these Terms of Use to any third party without our prior
-written consent. We may assign these Terms of Use or any rights under these
-Terms of Use to any third party without your consent. Any assignment in
-violation of this Section will be void. The terms of these Terms of Use will be
-binding upon permitted assignees. These Terms of Use will inure to the benefit
-of and be binding upon the Parties, their permitted successors and permitted
-assignees.</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>23. <b>Apple App
-Store Additional License Terms</b></span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>If the Mojio Mobile
-Application is provided to you through the Apple Inc. (Apple Inc. together with
-all of its affiliates, “Apple”) App Store, the following terms and conditions
-apply to you in addition to all the other terms and conditions of these Terms
-of Use:</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-left:1.0in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>a)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>The
-parties acknowledge these Terms of Use are concluded between the parties, and
-not with Apple. The responsibility for the Mojio Mobile Application and content
-thereof is governed by these Terms of Use.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>b)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Notwithstanding
-anything to the contrary hereunder, you may use the Mojio Mobile Application
-only on an iPhone or iPod touch that you own or control.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>c)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>You
-and we acknowledge that Apple has no obligation to furnish any maintenance or
-support services with respect to the Mojio Mobile Application.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>d)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>In
-the event of any failure of the Mojio Mobile Application to conform to any
-applicable warranty, you may notify Apple, and Apple will refund the purchase
-price for the Mojio Mobile Application (if any) to you. Except for the
-foregoing, to the maximum extent permitted by applicable law, Apple will have
-no other warranty obligation whatsoever with respect to the Mojio Mobile
-Application, and any other claims, losses, liabilities, damages, costs or expenses
-attributable to any failure to conform to any warranty will be governed by
-these Terms of Use.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>e)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Any
-claim in connection with the Mojio Mobile Application related to product
-liability, a failure to conform to applicable legal or regulatory requirements,
-or claims under consumer protection or similar legislation is governed by these
-Terms of Use, and Apple is not responsible for such claim.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>f)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Any
-third party claim that the Mojio Mobile Application or your possession and use
-of the Mojio Mobile Application infringes that third party’s intellectual
-property rights will be governed by these Terms of Use, and Apple will not be
-responsible for the investigation, defense, settlement and discharge of such
-intellectual property infringement claim.</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>g)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>You
-represent and warrant that you are not: (i) located in any country that is
-subject to a U.S. Government embargo, or that has been designated by the U.S.
-Government as a “terrorist supporting” country; or (ii) listed on any U.S.
-Government list of prohibited or restricted parties.</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-left:1.0in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>h)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>You
-may contact us in writing regarding any notices, questions, complaints or
-claims with respect to the Mojio Mobile Application.</span></p>
-
-<p class=MsoNormal style='margin-left:1.5in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Name: David Shore,
-President</span></p>
-
-<p class=MsoNormal style='margin-left:1.5in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Address: 9th Floor,
-1080 Howe Street, Vancouver BC V6Z 2T1</span></p>
-
-<p class=MsoNormal style='margin-left:1.5in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Telephone Number: 604
-614-5498</span></p>
-
-<p class=MsoNormal style='margin-left:1.5in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Email Address:
-davids@moj.io</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-left:1.0in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>i)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>Apple
-is a third party beneficiary to these Terms of Use and may enforce these Terms
-of Use against you.</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-left:1.0in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>j)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>If
-any of the terms and conditions in these Terms of Use are inconsistent or in
-conflict with Apple’s applicable instructions for Minimum Terms for Developer’s
-End User License Agreement (the current version as of the date these Terms of
-Use was last updated is located at:
-http://www.apple.com/legal/internet-services/itunes/appstore/dev/minterms/) or
-the App Store Terms of Service (the current version as of the date these Terms
-of Use was last updated is located at:
-http://www.apple.com/legal/internet-services/itunes/ca/terms.html), the terms
-and conditions of Apple’s instructions for Minimum Terms for Developer’s End User
-License Agreement or App Store Terms of Service, as applicable, will apply to
-the extent of such inconsistency or conflict.</span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>24. <b>Google Play</b></span></p>
-
-<p class=MsoNormal style='margin-left:.25in'><span lang=EN-US style='font-size:
-10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>If the Mojio Mobile
-Application is provided to you through the Google Inc. (Google Inc. together
-with all of its affiliates, “<b>Google</b>”) Google Play, the following terms
-and conditions apply to you in addition to all the other terms and conditions
-of these Terms of Use:</span></p>
-
-<p class=MsoListParagraphCxSpFirst style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>a)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>You
-acknowledge that Google is not responsible for providing support services for
-the Mojio Mobile Application.</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-left:.75in;text-indent:-.25in'><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>b)<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US style='font-size:10.0pt;line-height:115%;font-family:"Arial","sans-serif"'>If
-any of the terms and conditions in these Terms of Use are inconsistent or in
-conflict with the Google Play Developer Distribution Agreement (the current
-version as of the date these Terms of Use was last updated is located at
-https://play.google.com/about/developer-distribution-agreement.html), the terms
-and conditions of Google’s Google Play Developer Distribution Agreement will
-apply to the extent of such inconsistency or conflict.</span></p>
-
-</div>
-
+<body>
+<p class="p1"><b>BELL CONNECTED CAR TERMS OF SERVICE</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p3"><span class="s1"><b>IMPORTANT</b></span>: Your use of the Bell Connected Car application (the â€œ<b>App</b>â€) with associated services provided and powered by Mojio Inc., is governed by the Mojio Terms of Use and Privacy Policy found at moj.io. You should not download, install or use the App if you do not understand or agree to the Mojio Terms of Use and/or Privacy Policy.</p>
+<p class="p4">These Bell Connected Car Terms of Service apply solely to your use of the ZTE Z6200C device which connects to your vehicleâ€™s on-board diagnostics (OBD-II) port (the â€œ<b>ZTE OBD-II Device</b>â€) and the wireless telecommunications services provided to you by Bell Mobility Inc. (â€œ<b>Bell</b>â€ or â€œ<b>Bell Mobility</b>â€) in connection with Bell Connected Car. In addition, you remain subject to Bell Mobilityâ€™s Terms of Service and the Responsible Use of Bell Services Policy governing your use of the Bell services, all of the terms of which are incorporated by reference herein (visit bell.ca/legal). Bell may modify these Bell Connected Car Terms from time to time, including by modifying or terminating Bell Connected Car, or any components thereof (including which rate plans and/or data features are eligible for use with Bell Connected Car).</p>
+<p class="p5"><span class="s1"><b>Always employ safe driving practices. You are responsible for obeying all traffic laws and laws directed at distracted driving (including use of mobile devices while driving). Bell Mobility reminds you that it is unsafe and illegal to drive while using your mobile device unless you are using handsfree capabilities</b></span><b>.</b></p>
+<p class="p6"><b></b><br></p>
+<ol class="ol1">
+  <li class="li7"><b>How does the Bell Connected Car service</b><span class="s2"><b> </b></span><b>work?</b></li>
+</ol>
+<p class="p8"><b></b><br></p>
+<p class="p9">When loaded on a compatible mobile device, the App provided by Mojio works with the ZTE OBD-II Device and Bellâ€™s wireless services to provide certain tools and services such as an in-car Wi-Fi hotspot, select telemetry information and basic vehicle diagnostics.</p>
+<p class="p10"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>What are some of my responsibilities relating to the ZTE OBD-II</b><span class="s3"><b> </b></span><b>Device?</b></li>
+</ol>
+<p class="p8"><b></b><br></p>
+<p class="p12">Among other responsibilities, you agree and acknowledge:</p>
+<p class="p13"><br></p>
+<ol class="ol1">
+  <ul class="ul1">
+    <li class="li11">you will install the ZTE OBD-II Device in a compatible vehicle owned and controlled by you; to determine if your vehicle is compatible, please visit<span class="s4"> </span>bell.ca/checkmycar;</li>
+    <li class="li14">you will not install or remove the ZTE OBD-II Device while your vehicle is in<span class="s4"> </span>use;</li>
+    <li class="li15">you will ensure the ZTE OBD-II Device is installed securely and properly in your vehicleâ€™s OBD-II port;<span class="s5"> </span>and</li>
+    <li class="li16">the ZTE OBD-II Device goes into sleep mode when your vehicle is not in use, to conserve battery drain. It is recommended you unplug the ZTE OBD-II Device if you plan to park your vehicle for several weeks at a<span class="s6"> </span>time to help avoid battery<span class="s7"> </span>drain.</li>
+  </ul>
+</ol>
+<p class="p17"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>Does the ZTE OBD-II Device use my wireless data</b><span class="s8"><b> </b></span><b>services?</b></li>
+</ol>
+<p class="p2"><b></b><br></p>
+<p class="p9">Yes, on an ongoing basis, the ZTE OBD-II Device will send your vehicle information to Mojio for the telematics portion of the App. This activity uses your wireless data services. This data usage will continue, even if you have turned off your Bell Connected Car Wi-Fi hotspot or if your vehicleâ€™s engine is turned off. Also, when you use the Bell Connected Car Wi-Fi hotspot, plan data usage will be incurred.<span class="Apple-converted-space">Â  </span><b>The only way to stop the ZTE OBD-II Device from using any of your wireless data services is to unplug it from the OBD-II port, which should only be done while your vehicle is not in use.</b></p>
+<p class="p18"><b></b><br></p>
+<ol class="ol1">
+  <li class="li11"><b>Does Bell Connected Car work outside of</b><span class="s8"><b> </b></span><b>Canada?</b></li>
+</ol>
+<p class="p8"><b></b><br></p>
+<p class="p9">Yes, Bell Connected Car will work in the United States.<span class="Apple-converted-space">Â  </span>Roaming and data charges apply.</p>
+<p class="p2"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>How many digital devices can connect to the Bell Connected Car Wi-Fi</b><span class="s3"><b> </b></span><b>Hotspot?</b></li>
+</ol>
+<p class="p19"><b></b><br></p>
+<p class="p9">You can connect up to <b>5 </b>Wi-Fi capable digital devices (such as smartphones, tablets and laptops) to the Bell Connected Car Wi-Fi hotspot. The Bell Connected Car Wi-Fi hotspot is password-protected, so it is only available to those who have the password.</p>
+<ol class="ol1">
+  <li class="li20"><b>How does Bell limit its liability in respect of Bell Connected</b><span class="s8"><b> </b></span><b>Car?</b></li>
+</ol>
+<p class="p21">The Bell Mobility Terms of Service, including the warranties and limitation of liability therein, apply to your use of the ZTE OBD-II Device and the wireless telecommunications services provided to you in connection with Bell Connected Car.<span class="Apple-converted-space">Â  </span>As a reminder, the Mojio Terms of Service at moj.io are applicable to, and govern your use of, the App.</p>
+<p class="p22"><br></p>
+<p class="p23">In addition, Bell does not warrant that your use of Bell Connected Car will result in any savings or efficiencies in the operation of your vehicle, or that the Appâ€™s detection of driving activity, mechanical errors or technical errors in your vehicle will be accurate. You acknowledge and agree that Bell Connected Car is not intended to replace the advice of licensed mechanics or proper vehicle maintenance, which you remain responsible for obtaining.</p>
+<p class="p24">You also acknowledge and agree that you are responsible for your use of the ZTE OBD-II Device, the App and/or the wireless services and any accident, damage, liability, bodily injury or death that might occur to you, your property, third parties or their property resulting from said use, even if the ZTE OBD-II Device, App or wireless services contribute to the cause of the accident, damages, liability, bodily injury or death.</p>
+<p class="p10"><br></p>
+<p class="p25">If you would like to review this Bell Connected Car Terms of Service again later, please visit bell.ca/legal. November 17, 2017</p>
+<p class="p26"><br></p>
+<p class="p26"><br></p>
+<p class="p26"><br></p>
+<p class="p26"><br></p>
+<p class="p26"><br></p>
+<p class="p26"><br></p>
+<p class="p26"><br></p>
+<p class="p26"><br></p>
+<p class="p27"><br></p>
+<p class="p28"><b>MOJIOâ€™S TERMS of USE</b></p>
+<p class="p2"><b></b><br></p>
+<p class="p23"><b>Last Updated: November 22, 2016</b></p>
+<p class="p26"><b></b><br></p>
+<p class="p26"><b></b><br></p>
+<p class="p4">The following terms of use (the â€œ<b>Terms of Use</b>â€) govern your access to and use of: (a) our website located at <a href="http://www.moj.io/">www.moj.io</a> (the â€œ<b>Mojio Website</b>â€); (b) our platform (including APIs required to access the platform) that provides connected-car services (the â€œ<b>Mojio Platform</b>â€); (c) our software development kit for development applications that interoperate with the Mojio Platform (the â€œ<b>Mojio SDK</b>â€); (d) any mobile device software provided by us to you through the Apple App Store or Google Play, including our mobile application titled <b>Motion </b>(the â€œ<b>Mojio Mobile Applications</b>â€);</p>
+<p class="p29">(e) any text, pictures, media, data, text, information and other materials or content (collectively, the â€œContentâ€) contained on or provided through the foregoing (a) to (d), and (f) all other Content, products or services provided by us to you, as more particularly described on the Mojio Website (collectively, the â€œMojio Solutionâ€). These Terms of<span class="s6"> </span>Use form an agreement between Mojio Inc. (â€œ<b>Mojio</b>â€, â€œ<b>us</b>â€, â€œ<b>we</b>â€, â€œ<b>our</b>â€) and you. The term "you" refers to the person or entity browsing, installing, downloading, accessing <span class="s9">or </span>otherwise using the Mojio Solution (â€œ<b>use</b>â€ or â€œ<b>using</b>â€ in these Terms of Use will mean any of the<span class="s8"> </span>foregoing).</p>
+<p class="p26"><br></p>
+<p class="p26"><br></p>
+<p class="p30"><b>BY USING THE MOJIO SOLUTION, YOU: (A) REPRESENT AND WARRANT THAT: (I) YOU HAVE REACHED THE AGE OF MAJORITY IN YOUR JURISDICTION, (II) YOU HAVE THE CAPACITY TO ENTER INTO BINDING OBLIGATIONS, AND (III) ALL INFORMATION SUPPLIED BY YOU TO US THROUGH THE MOJIO SOLUTION IS TRUE, ACCURATE, CURRENT, AND COMPLETE; AND (B) AGREE TO BE BOUND BY AND COMPLY WITH THESE TERMS OF USE, AS UPDATED FROM TIME TO TIME IN ACCORDANCE WITH SECTION 3. IF YOU ARE USING THE MOJIO SOLUTION ON BEHALF OF ANOTHER PERSON OR A CORPORATE ENTITY, YOU REPRESENT AND WARRANT THAT YOU HAVE THE AUTHORITY TO BIND SUCH PERSON OR ENTITY TO THESE TERMS OF USE.</b></p>
+<p class="p22"><b></b><br></p>
+<ol class="ol1">
+  <li class="li11"><b>Mojio</b></li>
+</ol>
+<p class="p21">The Mojio Website is a site operated by Mojio. We are a Canadian registered company and have our registered office at 9th Floor, 1080 Howe Street, Vancouver, BC Canada V6Z 2T1. To contact us, please email <a href="mailto:info@moj.io">info@moj.io</a> or telephone our customer service line at 1 855-556-6546.</p>
+<p class="p22"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>Mojio Solution</b><span class="s7"><b> </b></span><b>Requirements</b></li>
+</ol>
+<p class="p8"><b></b><br></p>
+<p class="p23">In order to use the Mojio Solution (except for the Mojio Website), you are required to have:</p>
+<p class="p19"><br></p>
+<ol class="ol1">
+  <ol class="ol2">
+    <li class="li11">a hardware device approved for use with the Mojio Solution by Mojio (the â€œ<b>Mojio Hardware</b><span class="s10"><b> </b></span><b>Device</b>â€);</li>
+    <li class="li31">an active cellular data plan for the Mojio Hardware Device;<span class="s8"> </span>and</li>
+    <li class="li32">if required by your cellular carrier, a subscription for connected-car<span class="s10"> </span>services.</li>
+  </ol>
+</ol>
+<p class="p33"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>Changes to these Terms of Use and Mojio</b><span class="s11"><b> </b></span><b>Solution</b></li>
+</ol>
+<p class="p34"><b></b><br></p>
+<ol class="ol1">
+  <ol class="ol2">
+    <li class="li11">Except where prohibited by applicable law, we reserve the right to change these Terms of Use from time to time. Your continued access to or use of the Mojio Solution after any changes to these Terms of Use indicates your acceptance of such changes. Please review these Terms of Use regularly to ensure you understand the terms that apply at the time of<span class="s8"> </span>use.</li>
+    <li class="li11"><span class="s9">We</span><span class="s12"> </span>reserve<span class="s13"> </span>the<span class="s13"> </span>right<span class="s13"> </span>to<span class="s13"> </span>change<span class="s13"> </span>the<span class="s13"> </span>Mojio<span class="s13"> </span>Solution<span class="s13"> </span>from<span class="s13"> </span>time<span class="s13"> </span>to<span class="s13"> </span>time.<span class="s14"> </span><span class="s15">We</span><span class="s13"> </span>will<span class="s12"> </span>try<span class="s7"> </span>to<span class="s9"> </span>give<span class="s9"> </span>you<span class="s13"> </span>reasonable<span class="s13"> </span>notice of any major<span class="s14"> </span>changes.</li>
+  </ol>
+</ol>
+<p class="p17"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>License to Mojio</b><span class="s7"><b> </b></span><b>SDK</b></li>
+</ol>
+<p class="p26"><b></b><br></p>
+<p class="p26"><b></b><br></p>
+<p class="p35">Subject to these Terms of Use, we grant you a worldwide, non-exclusive, non-transferrable, non- sublicensable and revocable license during the Term to download, install and use the Mojio SDK to:</p>
+<ol class="ol1">
+  <ol class="ol2">
+    <li class="li20">enable interoperability between your custom iOS or Android-based mobile applications (the â€œCustom Applicationsâ€) and the Mojio Platform in accordance with these Terms of Use and any other policies or guidelines, including software development policies and guidelines, made available by us from time to<span class="s16"> </span>time; and</li>
+    <li class="li11">distribute and otherwise make available the redistributable components of the Mojio SDK in object code <span class="s9">form </span>as embedded within your Custom Applications, provided that your Custom Application is distributed or made available under an end-user license agreement that is no less protective of us and the Mojio Solution as<span class="s6"> </span>these Terms of<span class="s13"> </span>Use.</li>
+  </ol>
+</ol>
+<p class="p26"><br></p>
+<p class="p36"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>License to the Mojio Mobile</b><span class="s17"><b> </b></span><b>Applications</b></li>
+</ol>
+<p class="p8"><b></b><br></p>
+<p class="p23">Subject to these Terms of Use, we grant you worldwide, non-exclusive, non-transferable, non- sublicensable and revocable license during the Term to use the Mojio Mobile Applications on your iOS based or Android-based mobile device, as applicable, in accordance with these Terms of Use.</p>
+<p class="p22"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>Access to the Mojio</b><span class="s2"><b> </b></span><b>Website</b></li>
+</ol>
+<p class="p2"><b></b><br></p>
+<p class="p23">We do not guarantee that the Mojio Website, or any content on it, will always be available or be uninterrupted. We may suspend or withdraw or restrict the availability of all or any part of the Mojio Website for business and operational reasons. We will try to give you reasonable notice of any suspension or withdrawal.</p>
+<ol class="ol1">
+  <li class="li37"><b>Access to the Mojio</b><span class="s11"><b> </b></span><b>Platform</b></li>
+</ol>
+<p class="p8"><b></b><br></p>
+<p class="p23">We retain the right, at our sole discretion, to deny you access to the Mojio Platform for business and operational reasons or for violation of these Terms of Use. You will cease and desist from any such access or use immediately upon request by us.</p>
+<p class="p22"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>License Grant to Your Custom</b><span class="s11"><b> </b></span><b>Applications</b></li>
+</ol>
+<p class="p21">By uploading, transmitting, or otherwise providing us with any of your Custom Applications, you grant us an irrevocable, worldwide, non-exclusive, royalty-free, fully paid-up, perpetual, transferrable and sublicensable license to use, copy, transmit, distribute, display and otherwise make available your Custom Applications, including on our online catalogue of Mojio-enabled applications available on the Mojio Website.</p>
+<ol class="ol1">
+  <li class="li37"><b>Trademark</b><span class="s7"><b> </b></span><b>Licenses</b></li>
+</ol>
+<p class="p27"><b></b><br></p>
+<ol class="ol1">
+  <ol class="ol2">
+    <li class="li11">You grant us an irrevocable, worldwide, non-exclusive, royalty-free, fully paid- up, perpetual, transferrable and sublicensable license to use your trademarks and logos solely in connection with the marketing, advertising, promotion, transmission, distribution, and display of your Custom Applications, including on our catalogue of Mojio-enabled applications available on the Mojio<span class="s3"> </span>Website.</li>
+    <li class="li11"><span class="s9">We </span>grant you a worldwide, non-exclusive, royalty-free, fully paid-up, non- transferable, non-sublicensable, and revocable license during the Term to use the trademarks and logos of Mojio in accordance with our trademark guidelines and policies located at <a href="http://www.moj.io/">www.moj.io</a> solely in connection with the marketing,<span class="s18"> </span>advertising, and promotion of your Custom<span class="s17"> </span>Applications.</li>
+    <li class="li11"><span class="s9">We</span><span class="s14"> </span>may<span class="s2"> </span>terminate<span class="s13"> </span>the<span class="s13"> </span>license<span class="s13"> </span>granted<span class="s13"> </span>to<span class="s13"> </span>use<span class="s13"> </span>pursuant<span class="s9"> </span>to<span class="s13"> </span>Section<span class="s13"> </span>9(b)<span class="s13"> </span>at<span class="s13"> </span>our<span class="s13"> </span>sole<span class="s13"> </span>discretion,<span class="s13"> </span>including<span class="s13"> </span>if<span class="s13"> </span>we believe you may have tarnished, blurred, or otherwise diluted the quality or goodwill associated with our trademarks or<span class="s7"> </span>logos.</li>
+  </ol>
+</ol>
+<p class="p38"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>Data You Upload To</b><span class="s7"><b> </b></span><b>Us</b></li>
+</ol>
+<p class="p2"><b></b><br></p>
+<p class="p25">Subject to our Privacy Policy (see Section 15 below), you grant to us an irrevocable, worldwide, non-exclusive,</p>
+<p class="p39">royalty-free, fully paid-up, transferable and sublicensable license during the Term to access, collect, store and use any data, information, records and files that: (a) you load, transmit to or enter into the Mojio Solution; or (b) we collect from your Mojio Hardware Device ((a) and (b), collectively, the â€œ<b>User Data</b>â€), to: (i) provide the Mojio Solution to you; (ii) fix, maintain, enhance and modify the Mojio Solution;(iii) communicate with you; (iv) comply with legal and regulatory requirements, (v) promote our products and services; (vi) provide you with offers that might interest you ; and (vii) produce data, information, or other materials that will not be able to identify a particular individual or company (such data, information and materials, the â€œ<b>Aggregated Statistical Information</b>â€). We are free to create, use and disclose Aggregated Statistical Information for any purpose and without obligations of any kind.</p>
+<p class="p22"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>Software</b><span class="s7"><b> </b></span><b>Updates</b></li>
+</ol>
+<p class="p2"><b></b><br></p>
+<p class="p23">he Mojio Mobile Applications may automatically download and install updates from time to time from us. These updates are designed to improve, enhance and further develop the Mojio Solution and may take the form of bug fixes, enhanced functions, new software modules and completely new versions. You agree to receive such updates (and permit us to deliver these to you, including through the Apple App Store or Google Play) as part of your use of the Mojio Solution.</p>
+<ol class="ol1">
+  <li class="li20"><b>Ownership</b></li>
+</ol>
+<p class="p8"><b></b><br></p>
+<p class="p23">All rights, title and interest, including intellectual property rights, in the Mojio Solution, Aggregated Statistical Information and all other materials provided by us hereunder, and any update, adaptation, translation, customization or derivative work thereof, will remain with us (or our third party suppliers, if applicable). The Mojio Solution and all materials provided by us hereunder are licensed and not â€œsoldâ€ to you. All rights not expressly granted to you in these Terms of Use are reserved.</p>
+<ol class="ol1">
+  <li class="li20"><b>User IDs for Mojio</b><span class="s7"><b> </b></span><b>Solution</b></li>
+</ol>
+<p class="p8"><b></b><br></p>
+<p class="p25">To access certain features of the Mojio Solution (e.g., the Mojio Platform), you may be required to successfully sign up for a user account using the available interfaces at the Mojio Solution and be issued with a username and password login credentials (the â€œ<b>User ID</b>â€). If you are issued with a User ID, you will treat such information as confidential, keep your User ID secure and will not share your User ID with anyone else. We reserve the right to disable any User ID issued to you at any time in our sole discretion. If we disable access to a User ID issued to you, you may be prevented from accessing the Mojio Solution.</p>
+<ol class="ol1">
+  <li class="li40"><b>No Unlawful or Prohibited</b><span class="s17"><b> </b></span><b>Use</b></li>
+</ol>
+<p class="p8"><b></b><br></p>
+<p class="p23">You will not, without our prior written permission, use the Mojio Solution for any purpose other than to: (a) discover and learn about connected-car products and services offered by us; (b) obtain information about your vehicle, including driver behaviour; (c) use third party software applications that have been developed using the Mojio SDK; and (d) develop custom applications using the Mojio SDK. Without limiting the generality of the foregoing, you will not (and will not attempt to):</p>
+<p class="p22"><br></p>
+<ol class="ol1">
+  <ol class="ol2">
+    <li class="li11">send, upload, collect, transmit, store, use, post, publish, or otherwise communicate on the Mojio Solution (including any developer community forums) any data, information, pictures, videos, music or other<span class="s16"> </span>materials or content<span class="s7"> </span>that:</li>
+    <ol class="ol3">
+      <li class="li11">contains any computer viruses, worms, malicious code, or any software intended to damage or alter<span class="s5"> </span>a computer system or<span class="s14"> </span>data;</li>
+      <li class="li11">you do not have the lawful right to send, upload, collect, transmit, store, use, publish, or<span class="s5"> </span>otherwise communicate;</li>
+      <li class="li41">is false, intentionally misleading, or impersonates any other<span class="s19"> </span>person;</li>
+      <li class="li42">is bullying, harassing, abusive, threatening, vulgar, obscene, or offensive, or that contains pornography, nudity, or graphic or gratuitous violence, or that promotes violence, racism, discrimination, bigotry, hatred, or physical harm of any kind against any group or<span class="s10"> </span>individual;</li>
+      <li class="li11">is harmful to minors in any way or targeted at<span class="s8"> </span>minors;</li>
+      <li class="li32">violates any applicable laws, or infringes, violates or otherwise misappropriates the intellectual property or other rights of any third party (including any moral right, privacy right or right of<span class="s18"> </span>publicity); or</li>
+      <li class="li11">encourages any conduct that may violate, any applicable laws or would give rise to civil or<span class="s16"> </span>criminal liability;</li>
+    </ol>
+    <li class="li11">disable, overly burden, impair, or otherwise interfere with servers or networks connected to the Mojio<span class="s10"> </span>Solution (e.g., a denial of service<span class="s2"> </span>attack);</li>
+    <li class="li41">attempt to gain unauthorized access to the Mojio<span class="s3"> </span>Solution;</li>
+    <li class="li32">use any data mining, robots, or similar data gathering or extraction methods, or copy, modify, reverse engineer, reverse assemble, disassemble, or decompile the Mojio Solution or any part thereof or<span class="s16"> </span>otherwise attempt to discover any source<span class="s2"> </span>code;</li>
+    <li class="li11">use the Mojio Solution for the purpose of building a similar or competitive product or<span class="s5"> </span>service;</li>
+    <li class="li31">link to the Mojio Website in any way that is illegal or damages our reputation or takes advantage of it, or in any way as to suggest any form of association, approval or endorsement on our part where none exists, or<span class="s6"> </span>in any website that is not owned by you;<span class="s17"> </span>or</li>
+    <li class="li41">use the Mojio Solution other than as permitted by these Terms of<span class="s3"> </span>Use.</li>
+  </ol>
+</ol>
+<p class="p2"><br></p>
+<p class="p23">We have the right to remove any data, information, pictures, videos, music or other materials or content that you send, upload, collect, transmit, store, use, post, publish, or otherwise communicate on the Mojio Solution if, in our opinion, it does not comply with the content standards set out in (i) above.</p>
+<p class="p26"><br></p>
+<p class="p26"><br></p>
+<ol class="ol1">
+  <li class="li43"><b>Privacy</b></li>
+</ol>
+<p class="p8"><b></b><br></p>
+<ol class="ol1">
+  <ol class="ol2">
+    <li class="li44">Please click here to review our current Privacy Policy, which contains important information about our practices in collecting, storing, using and disclosing information about identifiable individuals (â€œ<b>Personal Information</b>â€), and which is hereby incorporated into and forms a part of these Terms of Use:<span class="s6"> <a href="http://www.moj.io/privacy?language=en"><span class="s20"><b>www.moj.io/privacy?language=en</b></span></a></span></li>
+  </ol>
+</ol>
+<p class="p18"><b></b><br></p>
+<ol class="ol1">
+  <ol class="ol2">
+    <li class="li11">You represent and warrant to us that the User Data will only contain Personal Information in respect of<span class="s18"> </span>which you have provided all notices and disclosures, obtained all applicable third party consents and permissions and otherwise have all authority, in each case as required by applicable laws, <span class="s9">to </span>enable us to: (i) make available the Mojio Solution; and (ii) create, use and disclose Aggregated Statistical Information for any purpose and without obligations of any<span class="s14"> </span>kind.</li>
+  </ol>
+</ol>
+<p class="p22"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>Viruses</b></li>
+</ol>
+<p class="p21">The downloading and viewing of Content is done at your own risk. We do not guarantee or warrant that the Mojio Solution is compatible with your computer system or that the Mojio Solution, or any links from the Mojio Solution, will be free of bugs, viruses, worms, trojan horses or disabling devices or other code that manifests contaminating or destructive properties. You are responsible for implementing safeguards to protect the security and integrity of your computer system, and you are responsible for the entire cost of any service, repairs or connections of and to your computer system that may be necessary as a result of your use of the Mojio Solution.</p>
+<p class="p26"><br></p>
+<p class="p26"><br></p>
+<p class="p26"><br></p>
+<p class="p26"><br></p>
+<p class="p26"><br></p>
+<p class="p45"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>Communications Not</b><span class="s2"><b> </b></span><b>Confidential</b></li>
+</ol>
+<p class="p8"><b></b><br></p>
+<p class="p23">We do not guarantee the confidentiality of any communications made by you through the Mojio Solution. We do not guarantee the security of data transmitted over the Internet or public networks in connection with your use of the Mojio Solution.</p>
+<p class="p22"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>Disclaimers</b></li>
+</ol>
+<p class="p8"><b></b><br></p>
+<p class="p23">YOU ACKNOWLEDGE, UNDERSTAND, AND AGREE THAT:</p>
+<p class="p2"><br></p>
+<ol class="ol1">
+  <ol class="ol2">
+    <li class="li11"><span class="s1">GENERAL DISCLAIMER</span>. THE MOJIO SOLUTION IS PROVIDED â€œAS ISâ€ AND â€œAS AVAILABLEâ€, <span class="s9">WITH </span>ALL FAULTS AND WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, <span class="s15">WE </span>DISCLAIM ALL WARRANTIES, REPRESENTATIONS AND CONDITIONS OF ANY KIND WITH RESPECT TO THE MOJIO SOLUTION WHETHER EXPRESS, IMPLIED, STATUTORY OR COLLATERAL, INCLUDING, WITHOUT LIMITATION, THE WARRANTIES AND CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY, COMPATIBILITY, TITLE, SECURITY, RELIABILITY, COMPLETENESS, QUIET ENJOYMENT, ACCURACY, RELIABILITY, CURRENCY, TIMELINESS, QUALITY, INTEGRATION, FITNESS FOR A PARTICULAR PURPOSE AND NON- INFRINGEMENT, OR ANY WARRANTIES OR CONDITIONS ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE, OR THAT THE MOJIO SOLUTION IS OR WILL BE ERROR-FREE OR WILL OPERATE WITHOUT INTERRUPTION. NOTWITHSTANDING THE ABOVE, IF YOU ARE USING THE MOJIO SOLUTION AS A CONSUMER, THIS DOES NOT AFFECT ANY STATUTORY WARRANTY TO WHICH YOU MAY BE ENTITLED UNDER APPLICABLE LAW, INCLUDING AN IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR<span class="s17"> </span>PURPOSE.</li>
+    <li class="li11"><span class="s1">NO RELIANCE ON INFORMATION</span>. THE CONTENT ON THE MOJIO SOLUTION IS PROVIDED FOR GENERAL INFORMATION ONLY. IT IS NOT INTENDED TO AMOUNT TO ADVICE ON WHICH YOU SHOULD RELY. YOU MUST OBTAIN PROFESSIONAL OR SPECIALIST ADVICE BEFORE TAKING,<span class="s18"> </span>OR REFRAINING FROM, ANY ACTION ON THE BASIS OF THE CONTENT ON THE MOJIO<span class="s4"> </span>SOLUTION.</li>
+    <li class="li11"><span class="s1">VEHICLE DISCLAIMER</span>. THE MOJIO SOLUTION IS NOT DESIGNED OR INTENDED TO BE A SUBSTITUTE FOR ADVICE OR INFORMATION FROM YOUR VEHICLE MANUFACTURER OR<span class="s4"> </span>A PROFESSIONAL AND LICENSED<span class="s17"> </span>MECHANIC.</li>
+    <li class="li41"><span class="s1">HIGH-RISK DISCLAIMER</span>. THE MOJIO SOLUTION IS NOT DESIGNED OR INTENDED FOR USE<span class="s4"> </span>IN EMERGENCY OR OTHER HIGH RISK<span class="s11"> </span>SITUATIONS.</li>
+    <li class="li11"><span class="s1">THIRD PARTY PRODUCTS OR SERVICES DISCLAIMER</span>. WHILE THE MOJIO SOLUTION MAY<span class="s8"> </span>PROVIDE INFORMATION (INCLUDING LINKS TO WEBSITES AND OTHER CONTACT INFORMATION) RELATED TO THE PRODUCTS OR SERVICES OFFERED BY THIRD PARTIES SUCH AS MECHANICS OR SUPPLIERS OF AUTOMTIVE PARTS, <span class="s15">WE </span>DO NOT ENDORSE OR APPROVE ANY INFORMATION, PRODUCT OR SERVICES PROVIDED BY SUCH THIRD PARTIES NOR DO <span class="s15">WE </span>GUARANTEE THE QUALITY, MERCHANTABILITY OR FITNESS FOR ANY PURPOSES OF SUCH INFORMATION, PRODUCTS AND SERVICES. YOU ACKNOWLEDGE AND AGREE THAT THE INFORMATION, PRODUCTS AND SERVICES PROVIDED BY THIRD PARTIES ARE NOT UNDER OUR CONTROL AND THAT YOU USE SUCH INFORMATION, SERVICES AND PRODUCTS ENTIRELY AT YOUR OWN<span class="s3"> </span>RISK.</li>
+  </ol>
+  <li class="li40"><b>Limitation of</b><span class="s13"><b> </b></span><b>Liability</b></li>
+</ol>
+<p class="p8"><b></b><br></p>
+<p class="p23">TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL WE BE LIABLE, WHETHER BASED ON WARRANTY, CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY OR ANY OTHER LEGAL THEORY, FOR ANY DAMAGES OF ANY KIND (INCLUDING, WITHOUT LIMITATION, DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, EXEMPLARY OR PUNITIVE DAMAGES, LOST PROFITS, LOSS OF USE, LOSS OF DATA, PERSONAL INJURY, FINES, FEES, PENALTIES OR OTHER LIABILITIES), WHETHER OR NOT WE WERE ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, RESULTING FROM OR RELATED TO: USE OF, OR INABILITY TO USE, THE MOJIO SOLUTION; USE OF OR RELIANCE ON ANY CONTENT DISPLAYED IN THE MOJIO SOLUTION; OR THESE TERMS OF USE.</p>
+<p class="p24">TO THE EXTENT THAT THE FOREGOING LIMITATION IS NOT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL OUR TOTAL AGGREGATE LIABILITY IN CONNECTION WITH OR UNDER THESE TERMS OF USE, OR YOUR USE OF, OR INABILITY TO MAKE USE OF, THE MOJIO SOLUTION EXCEED $100CAD. FOR GREATER CERTAINTY, THE EXISTENCE OF ONE OR MORE CLAIMS UNDER THESE TERMS OF USE WILL NOT INCREASE THIS MAXIMUM LIABILITY AMOUNT.</p>
+<p class="p22"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>Indemnification</b></li>
+</ol>
+<p class="p2"><b></b><br></p>
+<p class="p23">You will defend, indemnify and hold harmless us and all of our officers, directors, employees and agents from and against any claims, causes of action, demands, recoveries, losses, damages, fines, penalties or other costs or expenses of any kind or nature including reasonable legal and accounting fees, arising out of or in connection with:</p>
+<ol class="ol1">
+  <ol class="ol2">
+    <li class="li37">your Custom Applications, including our use and distribution of your Custom Applications pursuant to<span class="s18"> </span>Section 8;</li>
+    <li class="li41">your trade-marks or logos, including our use of your trade-marks or logos pursuant to Section<span class="s6"> </span>8;</li>
+    <li class="li42">your breach of any provision of these Terms of Use or any documents referenced<span class="s10"> </span>herein;</li>
+    <li class="li42">your violation of any law or the rights of a third party (including intellectual property rights);<span class="s5"> </span>or</li>
+    <li class="li31">your use (or the use by any third party using your User ID) of the Mojio<span class="s18"> </span>Solution.</li>
+  </ol>
+</ol>
+<p class="p2"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>Term and Termination;</b><span class="s7"><b> </b></span><b>Survival</b></li>
+</ol>
+<p class="p2"><b></b><br></p>
+<p class="p23">These Terms of Use will commence on the day you first use the Mojio Solution and will continue into force until terminated by either party (the â€œ<b>Term</b>â€). Either party may terminate these Terms of Use as follows: (a) we may terminate these Terms of Use at any time and with immediate effect by giving notice to you, at our discretion, by email (at your current email address on file with us) or through the Mojio Solution; (b) you may terminate these Terms of Use at any time and with immediate effect by requesting (by email or through any then-available interfaces on the Mojio Solution) that your User ID be deleted, ceasing use of the Mojio Solution and uninstalling and deleting the Mojio Mobile<span class="s7"> </span>Application.</p>
+<p class="p24">The following Sections, together with any other provision of these Terms of Use which expressly or by its nature survives termination or expiration, or which contemplates performance or observance subsequent to termination or expiration of these Terms of Use, will survive expiration or termination of these Terms of Use for any reason: Sections 8 (License to Custom Applications), 9(a) (Trademark License to Customer Trademark), 11 (Ownership), 15(b) (Personal Information Warranty), 16 (Viruses), 17 (Communications Not Confidential), 18 (Disclaimers), 19 (Limitation of Liability), 20 (Indemnification), 21(b) (Survival), and 22 (General Provisions).</p>
+<p class="p22"><br></p>
+<ol class="ol1">
+  <li class="li11"><b>General</b><span class="s7"><b> </b></span><b>Provisions</b></li>
+</ol>
+<p class="p2"><b></b><br></p>
+<ol class="ol1">
+  <ol class="ol2">
+    <li class="li11"><span class="s1">Choice of Law</span>. Except as restricted by applicable law of your domicile, residency or physical location, these Terms of Use will be governed by the laws of the Province of British Columbia and the federal laws of<span class="s6"> </span>Canada applicable therein and such laws apply to your access to or use of the Mojio Solution. You will only use the Mojio Solution in jurisdictions where the Mojio Solution may lawfully be used. Except as restricted by applicable law of your domicile, residency or physical location, you hereby consent to the exclusive jurisdiction and venue of courts in Vancouver, British Columbia, Canada in all disputes arising out of or relating to the use of the Mojio<span class="s8"> </span>Solution.</li>
+    <li class="li40"><span class="s1">Entire Agreement</span>. These Terms of Use constitute the entire agreement between you and us pertaining to<span class="s6"> </span>the subject matter hereof and supersede all prior or contemporaneous communications and proposals, whether electronic, oral or written, between you and us with respect to the Mojio Solution. A printed version of these Terms of Use and of any notice given in electronic form will be admissible in judicial or administrative proceedings based upon or relating to these Terms of Use to the same extent and subject to the same conditions as other business documents and records originally generated and maintained in printed<span class="s4"> </span>form.</li>
+    <li class="li44"><span class="s1">Waiver</span>. Our failure to insist upon or enforce strict performance of any provision of these Terms of Use will not be construed as a waiver of any provision or right. A waiver of any provision of these Terms of Use must be<span class="s18"> </span>in writing and a waiver in one instance will not preclude enforcement of such provision on other<span class="s21"> </span>occasions.</li>
+    <li class="li11"><span class="s1">Severable</span>. If any of the provisions or any part of the provisions contained in these Terms of Use are determined to be void, illegal, invalid or otherwise unenforceable by a court of competent jurisdiction, such provision or part of such provision, as applicable, will be severed from these Terms of Use and all other provisions and part of the provisions, as applicable, of these Terms of Use will remain in full force and effect. If any void, illegal, invalid, or unenforceable provision would be valid, enforceable or legal if some part of it were deleted, the provision shall apply with whatever modification is necessary to give effect to the<span class="s10"> </span>provision. To the extent that modification in accordance with the preceding two sentences is impossible, any invalid, unenforceable or illegal provisions shall be deemed not to form part of these Terms of Use and all other provisions of these Terms of Use shall remain in<span class="s11"> </span>force.</li>
+    <li class="li41"><span class="s1">Assignment</span>. You will not assign these Terms of Use to any third party without our prior written consent.<span class="s22"> </span><span class="s15">We </span>may assign these Terms of Use or any rights under these Terms of Use to any third party without your consent. Any assignment in violation of this Section will be void. The terms of these Terms of Use will be binding upon permitted assignees. These Terms of Use will inure to the benefit of and be binding upon the Parties, their permitted successors and permitted<span class="s8"> </span>assignees.</li>
+  </ol>
+</ol>
+<p class="p10"><br></p>
+<ol class="ol1">
+  <li class="li41"><b>Apple App Store Additional License</b><span class="s19"><b> </b></span><b>Terms</b></li>
+</ol>
+<p class="p2"><b></b><br></p>
+<p class="p23">If the Mojio Mobile Application is provided to you through the Apple Inc. (Apple Inc. together with all of its affiliates, â€œAppleâ€) App Store, the following terms and conditions apply to you in addition to all the other terms and conditions of these Terms of Use:</p>
+<ol class="ol1">
+  <ol class="ol2">
+    <li class="li20">The parties acknowledge these Terms of Use are concluded between the parties, and not with Apple.<span class="s6"> </span>The responsibility for the Mojio Mobile Application and content thereof is governed by these Terms of<span class="s3"> </span>Use.</li>
+    <li class="li11">Notwithstanding anything to the contrary hereunder, you may use the Mojio Mobile Application only on<span class="s6"> </span>an iPhone or iPod touch that you own or<span class="s3"> </span>control.</li>
+    <li class="li41">You and we acknowledge that Apple has no obligation to furnish any maintenance or support<span class="s23"> </span>services with respect to the Mojio Mobile<span class="s8"> </span>Application.</li>
+    <li class="li41">In the event of any failure of the Mojio Mobile Application to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price for the Mojio Mobile Application <span class="s9">(if </span>any) to you. Except for the foregoing, to the maximum extent permitted by applicable law, Apple will have no other warranty obligation whatsoever with respect to the Mojio Mobile Application, and any other claims,<span class="s16"> </span>losses, liabilities, damages, costs or expenses attributable to any failure to conform to any warranty will be governed by these Terms of<span class="s2"> </span>Use.</li>
+    <li class="li11">Any claim in connection with the Mojio Mobile Application related to product liability, a failure to conform to applicable legal or regulatory requirements, or claims under consumer protection or similar legislation<span class="s6"> </span>is governed by these Terms of Use, and Apple is not responsible for such<span class="s10"> </span>claim.</li>
+    <li class="li11">Any third party claim that the Mojio Mobile Application or your possession and use of the Mojio Mobile Application infringes that third partyâ€™s intellectual property rights will be governed by these Terms of<span class="s5"> </span>Use, and Apple will not be responsible for the investigation, defense, settlement and discharge of such intellectual property infringement<span class="s2"> </span>claim.</li>
+    <li class="li11">You represent and warrant that you are not: (i) located in any country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a â€œterrorist<span class="s16"> </span>supportingâ€ country; or (ii) listed on any U.S. Government list of prohibited or restricted<span class="s8"> </span>parties.</li>
+    <li class="li11">You may contact us in writing regarding any notices, questions, complaints or claims with respect to<span class="s16"> </span>the Mojio Mobile<span class="s14"> </span>Application.</li>
+  </ol>
+</ol>
+<p class="p46">Name: David Shore, President</p>
+<p class="p47">Address: 9th Floor, 1080 Howe Street, Vancouver BC V6Z 2T1 Telephone Number: 604 614-5498</p>
+<p class="p48">Email Address: <a href="mailto:davids@moj.io">davids@moj.io</a></p>
+<p class="p19"><br></p>
+<ol class="ol1">
+  <ol class="ol2">
+    <li class="li11">Apple is a third party beneficiary to these Terms of Use and may enforce these Terms of Use against<span class="s22"> </span>you.</li>
+    <li class="li42">If any of the terms and conditions in these Terms of Use are inconsistent or in conflict with Appleâ€™s applicable instructions for Minimum Terms for Developerâ€™s End User License Agreement (the current version as of the date these Terms of Use was last updated is located at: <a href="http://www.apple.com/legal/internet-services/itunes/appstore/dev/minterms/)">http://www.apple.com/legal/internet-services/itunes/appstore/dev/minterms/)</a> or the App Store Terms of Service (the current version as of the date these Terms of Use was last updated is located at: <a href="http://www.apple.com/legal/internet-services/itunes/ca/terms.html)">http://www.apple.com/legal/internet-services/itunes/ca/terms.html),</a> the terms and conditions of Appleâ€™s instructions for Minimum Terms for Developerâ€™s End User License Agreement or App Store Terms of Service, as applicable, will apply to the extent of such inconsistency or<span class="s4"> </span>conflict.</li>
+  </ol>
+  <li class="li20"><b>Google</b><span class="s12"><b> </b></span><b>Play</b></li>
+</ol>
+<p class="p8"><b></b><br></p>
+<p class="p23">If the Mojio Mobile Application is provided to you through the Google Inc. (Google Inc. together with all of its affiliates, â€œ<b>Google</b>â€) Google Play, the following terms and conditions apply to you in addition to all the other terms and conditions of these Terms of Use:</p>
+<p class="p22"><br></p>
+<ol class="ol1">
+  <ol class="ol2">
+    <li class="li11">You acknowledge that Google is not responsible for providing support services for the Mojio Mobile Application.</li>
+    <li class="li11">If any of the terms and conditions in these Terms of Use are inconsistent or in conflict with the Google Play Developer Distribution Agreement (the current version as of the date these Terms of Use was last updated<span class="s22"> </span>is located at https://play.google.com/about/developer-distribution-agreement.html), the terms and conditions of Googleâ€™s Google Play Developer Distribution Agreement will apply to the extent of such inconsistency or conflict.</li>
+  </ol>
+</ol>
 </body>
-
 </html>
